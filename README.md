@@ -9,7 +9,9 @@ This Shiny app is an interactive tools for **High throughput PCR library sequenc
 It is meant to provide an intuitive interface for researchers to easily **upload, analyze, visualize, and explore High throughput PCR library sequencing data** interactively with no prior programming knowledge in R.
 
 <div class="row"><hr style="border-style:none;"/></div>
+
 ## Features
+
 ---
 
 Various **visualizations** and **output data** are included:
