@@ -132,12 +132,10 @@ shinyServer(function(input, output){
   output$downloadTotalPng <- downloadHandler(
     filename = function()  {paste0(input$Total_n,".png")},
     content = function(file) {
-      png(file)
       p <- ggplot(Total(), aes(x=Type, y=Freq, fill=Type))+
               geom_bar(stat = "identity")+
               theme_bw()
-      print(p)
-      dev.off()
+      ggsave(file, p, width = 6, height = 5)
     }
   )
   
@@ -146,12 +144,10 @@ shinyServer(function(input, output){
       paste0(input$Total_n,".pdf")
     },
     content = function(file) {
-      pdf(file)
       p <- ggplot(Total(), aes(x=Type, y=Freq, fill=Type))+
               geom_bar(stat = "identity")+
               theme_bw()
-      print(p)
-      dev.off()
+      ggsave(file, p, width = 6, height = 5)
     }
   )
   
@@ -168,12 +164,10 @@ shinyServer(function(input, output){
   output$downloadSnpPng <- downloadHandler(
     filename = function()  {paste0(input$SNP_n,".png")},
     content = function(file) {
-      png(file)
-      p <- ggplot(Total(), aes(x=Type, y=Freq, fill=Type))+
-        geom_bar(stat = "identity")+
-        theme_bw()
-      print(p)
-      dev.off()
+      p <- ggplot()+
+        geom_logo(SNP_u(), method="prob", seq_type="dna", col_scheme = 'nucleotide')+
+        theme_logo()
+      ggsave(file, p, width = 12, height = 3)
     }
   )
 
@@ -182,12 +176,10 @@ shinyServer(function(input, output){
       paste0(input$SNP_n,".pdf")
     },
     content = function(file) {
-      pdf(file)
-      p <- ggplot(Total(), aes(x=Type, y=Freq, fill=Type))+
-        geom_bar(stat = "identity")+
-        theme_bw()
-      print(p)
-      dev.off()
+      p <- ggplot()+
+        geom_logo(SNP_u(), method="prob", seq_type="dna", col_scheme = 'nucleotide')+
+        theme_logo()
+      ggsave(file, p, width = 12, height = 3)
     }
   )
   
@@ -215,12 +207,10 @@ shinyServer(function(input, output){
   output$downloadIndelPng <- downloadHandler(
     filename = function()  {paste0(input$Indel_n,".png")},
     content = function(file) {
-      png(file)
-      p <- ggplot(Total(), aes(x=Type, y=Freq, fill=Type))+
+      p <- ggplot(Indels(), aes(x=Type, y=Freq, fill=Type))+
         geom_bar(stat = "identity")+
         theme_bw()
-      print(p)
-      dev.off()
+      ggsave(file, p, width = 6, height = 5)
     }
   )
   
@@ -229,12 +219,10 @@ shinyServer(function(input, output){
       paste0(input$Indel_n,".pdf")
     },
     content = function(file) {
-      pdf(file)
-      p <- ggplot(Total(), aes(x=Type, y=Freq, fill=Type))+
+      p <- ggplot(Indels(), aes(x=Type, y=Freq, fill=Type))+
         geom_bar(stat = "identity")+
         theme_bw()
-      print(p)
-      dev.off()
+      ggsave(file, p, width = 6, height = 5)
     }
   )
 

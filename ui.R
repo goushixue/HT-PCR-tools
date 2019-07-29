@@ -84,9 +84,9 @@ dashboardPage(skin = "black",
                             box(title = 'Extract target reads', solidHeader = T, 
                               status = "primary", collapsible = T,width = 12,
                               textInput("Seq5","input 5' Seq",
-                                value='GTAACTAAGA'),
+                                value='CCAGCAGCTC'),
                               textInput("Seq3","input 3' Seq",
-                                value='TACTTTATCT'),
+                                value='TCCAGTGTCA'),
                               actionButton("anButton", "Extract !"),
                               tags$li("(This will take a few minutes.)")
                             )
@@ -105,7 +105,7 @@ dashboardPage(skin = "black",
                             box(title = 'Input WT sequences',solidHeader = T, 
                                 status = "primary", collapsible = T,width = 12,
                               textInput('WT', 'Please enter WT sequence',
-                                value = 'TCTGATTCCTGAAGACATTCCTCTGGAGCCTCAGTAAATT'),
+                                value = 'GGGAGCCCAGGTGGGCGGATCCATCTCCTCTGGCTCCTCCGCC'),
                               actionButton("SpButton", "Start to Split")
                             )
                           ),
