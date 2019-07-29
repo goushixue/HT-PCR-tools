@@ -110,8 +110,6 @@ Various **visualizations** and **output data** are included:
 </div>
 
 
-<div class="row"><hr style="border-style:none;"/></div>
-
 <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">              
@@ -123,7 +121,6 @@ Various **visualizations** and **output data** are included:
   </div>
 </div>
 
-<div class="row"><hr style="border-style:none;"/></div>
 
 ## Input File & Analysis
 
@@ -134,7 +131,6 @@ Various **visualizations** and **output data** are included:
 
 - That will automatically load the file **example.fq.gz** from **./example_data** directory.
 
-<div class="row"><hr style="border-style:none;"/></div>
 
 ### 2. Upload your own data 
 
@@ -143,8 +139,6 @@ Various **visualizations** and **output data** are included:
 - Select the file in the local directory, waitting the data upload complete and then click the **Upload data** button.
 
 - Waitting for one or two minutes, until the **Raw sequences** table show up.
-
-<div class="row"><hr style="border-style:none;"/></div>
 
 <div class="col-md-4">
 <div class="BoxArea4" style="width: 80%;margin: 0 left;display: block;">
@@ -159,15 +153,12 @@ Various **visualizations** and **output data** are included:
 </div>
 
 
-<div class="row"><hr style="border-style:none;"/></div>
-
 ### 3. Prepare the target sequence
 
 - Normally, the target sequence should be your **gRNA sequence + - 20bp**.
 
 - There is a example of the **target Sequence structure** below:
 
-<div class="row"><hr style="border-style:none;"/></div>
 
 <div class="col-md-4">
 <div class="BoxArea6" style="width: 80%;margin: 0 auto;display: block;">
@@ -184,15 +175,10 @@ Various **visualizations** and **output data** are included:
 </div>
 </div>
 
-<div class="col-md-12"><hr style="border-top: none;"></div>
-
-
 ### 4. Data visualization
 
 - The final result will be generated automatically.
 - And the figures can be download in a **.png or .pdf** format.
-
-<div class="row"><hr style="border-style:none;"/></div>
 
 <div class="col-md-12">
 <p><strong>Statistics of mutation rate.</strong></p>
@@ -201,8 +187,6 @@ Various **visualizations** and **output data** are included:
 </div>
 </div>
 
-<div class="row"><hr style="border-style:none;"/></div>
-
 <div class="col-md-12">
 <p><strong>Barplot for Total and Indel mutation rate.</strong></p>
 <div class="BoxArea6" style="width: 60%;margin: 0 left;display: block;">
@@ -210,16 +194,10 @@ Various **visualizations** and **output data** are included:
 </div>
 </div>
 
-<div class="row"><hr style="border-style:none;"/></div>
-
-
 <div class="col-md-12">
 <p><strong>Seqlogo Plot for SNP mutation rate.</strong></p>
 <div class="BoxArea6" style="width: 60%;margin: 0 left;display: block;">
     <img src="www/seqlogo_plot.png" alt="Sample file" style="width: 100%; display: block;"/>
 </div>
 </div>
-
-<div class="row"><hr style="border-style:none;"/></div>
-
 
