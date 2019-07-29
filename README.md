@@ -1,8 +1,7 @@
 # HT-PCR-tools
------------
+
 ## Introduction
 
----
 
 This Shiny app is an interactive tools for **High throughput PCR library sequencing**, which performed for detectting gene editting effections. 
 
@@ -12,7 +11,6 @@ It is meant to provide an intuitive interface for researchers to easily **upload
 
 ## Features
 
----
 
 Various **visualizations** and **output data** are included:
 
@@ -133,7 +131,6 @@ Various **visualizations** and **output data** are included:
 
 ## Input File & Analysis
 
----
 
 ### 1. Example data (Demo)
 
@@ -229,4 +226,4 @@ Various **visualizations** and **output data** are included:
 
 <div class="row"><hr style="border-style:none;"/></div>
 
----
+
