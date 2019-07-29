@@ -25,7 +25,6 @@ Various **visualizations** and **output data** are included:
             </ul>
          </li>
       </ul>
-      <hr/>
       <div class="col-md-2" style="width: 33%">
         <a class="pop">
             <div class="BoxArea4" style="width: 100%;max-width:300px;margin: 0 auto;display: block;">
@@ -61,7 +60,6 @@ Various **visualizations** and **output data** are included:
             </ul>
          </li>
       </ul>
-      <hr/>
       <div class="col-md-2" style="width: 50%">
         <a class="pop">
             <div class="BoxArea4" style="width: 100%;max-width:300px;margin: 0 auto;display: block;">
@@ -90,7 +88,6 @@ Various **visualizations** and **output data** are included:
             </ul>
          </li>
       </ul>
-      <hr/>
       <div class="col-md-6" style="width: 50%">
         <a class="pop">
             <div class="BoxArea4" style="width: 100%;max-width:300px;margin: 0 auto;display: block;">
