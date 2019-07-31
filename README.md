@@ -82,7 +82,7 @@ Various **visualizations** and **output data** are included:
     <div class="row BoxArea4">
       <ul>
          <li>
-            <p><strong>Barplot</strong> </p>
+            <p><strong>Results plot</strong> </p>
             <ul>
                <li>Barplots and Seqlogoplots</li>
             </ul>
