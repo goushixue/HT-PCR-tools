@@ -106,6 +106,24 @@ Various **visualizations** and **output data** are included:
   </div>
 </div>
 
+## Matters need attention
+
+---
+### 1. Install packages
+
+- If you are using this software for the first time, run the **dependencies.R** script to install the package.
+
+### 2. File name format
+
+- A **fastq format** file that contains the **Raw sequenced reads.**
+
+- If is **single-end sample**, names the sample as **sample1.fq.gz, sample2.fq.gz ...**.
+
+- If is **paired-end sample**, names the R1 and R2 samples as **sample1_1.fq.gz sample1_2.fq.gz** respectively.
+
+<div class="row"><hr style="border-style:none;"/></div>
+
+
 ## Input File & Analysis
 
 
@@ -117,8 +135,6 @@ Various **visualizations** and **output data** are included:
 
 
 ### 2. Upload your own data 
-
-- A **.fastq.gz/.fq.gz** file that contains a **Raw sequenced reads.**
 
 - Select the file in the local directory, waitting the data upload complete and then click the **Upload data** button.
 
