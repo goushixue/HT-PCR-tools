@@ -114,7 +114,7 @@ shinyServer(function(input, output){
         stringi::stri_split(x,regex = '_')[[1]]
       })[1,] %>% unique
     }
-    names(fileNames) = fileNames
+    names(fileName_u) = fileName_u
     selectInput('sample_id', 'Which sample to show:', fileName_u)
   })
 
@@ -192,7 +192,7 @@ shinyServer(function(input, output){
         stringi::stri_split(x,regex = '_')[[1]]
       })[1,] %>% unique
     }
-    names(fileNames) = fileNames
+    names(fileName_u) = fileName_u
     selectInput('Flt_sample_id', 'Which sample to show:', fileName_u)
   })
   
@@ -235,7 +235,7 @@ shinyServer(function(input, output){
         stringi::stri_split(x,regex = '_')[[1]]
       })[1,] %>% unique
     }
-    names(fileNames) = fileNames
+    names(fileName_u) = fileName_u
     selectInput('Var_sample_id', 'Which sample to show:', fileName_u)
   })
   
@@ -406,7 +406,7 @@ shinyServer(function(input, output){
         stringi::stri_split(x,regex = '_')[[1]]
       })[1,] %>% unique
     }
-    names(fileNames) = fileNames
+    names(fileName_u) = fileName_u
     selectInput('SNP_sample_id', 'Which sample to show:', fileName_u)
   })
   

@@ -248,5 +248,10 @@ Various **visualizations** and **output data** are included:
 
 <div class="row"><hr style="border-style:none;"/></div>
 
+## How to get ?
+
 ---
 
+- The latest release version can be download from [My github website](https://github.com/goushixue/HT-PCR-tools/releases).
+
+---
